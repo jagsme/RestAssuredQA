@@ -38,8 +38,8 @@ public class TestAlmosafer {
 
     @Test()
     public void testFlightFareFromDubaiToJordan() throws JSONException {
-        String departDate = Date.getFormattedDateFromToday(37, Date.DATE_FORMAT_PATTERN_YYYY_MM_DD);
-        String arrivalDate = Date.getFormattedDateFromToday(40, Date.DATE_FORMAT_PATTERN_YYYY_MM_DD);
+        String departDate = Date.getFormattedDateFromToday(15, Date.DATE_FORMAT_PATTERN_YYYY_MM_DD);
+        String arrivalDate = Date.getFormattedDateFromToday(20, Date.DATE_FORMAT_PATTERN_YYYY_MM_DD);
         String destination = "AMM";
         String origin = "DXB";
         String cabin = "Economy";
