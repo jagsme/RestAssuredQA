@@ -8,7 +8,8 @@ Includes:
 
 
 Usage :
-
+git clone https://github.com/jagsme/seeraTaskQA.git
+cd seeraTaskQA
 mvn clean test
 
 reports are generated at target/site
