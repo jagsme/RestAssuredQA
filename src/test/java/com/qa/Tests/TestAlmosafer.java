@@ -1,4 +1,4 @@
-package com.qa.tests;
+package com.qa.Tests;
 
 import com.qa.APIHelpers.BaseHelpers;
 import com.qa.Utils.Date;
@@ -8,8 +8,8 @@ import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.response.Response;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
+import org.junit.Before;
+import org.junit.Test;
 
 import static io.restassured.RestAssured.*;
 
@@ -18,9 +18,8 @@ public class TestAlmosafer {
     BaseHelpers APIcommon = new BaseHelpers();
 
 
-
-    @BeforeAll
-    static void setup() {
+    @Before
+    public void setup() {
 
         RestAssured.filters(new RequestLoggingFilter(),new ResponseLoggingFilter());
         RestAssured.baseURI = "https://ae.almosafer.com/api/";
