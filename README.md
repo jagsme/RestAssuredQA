@@ -6,11 +6,11 @@ Includes:
     2) GET request validation
     3) Reporting 
 
-Usage :
 
-    git clone https://github.com/jagsme/seeraTaskQA.git
-    cd seeraTaskQA
-    mvn clean test
+Usage :
+git clone https://github.com/jagsme/RestAssuredQA.git
+cd RestAssuredQA
+mvn clean test
 
 reports are generated at target/site
 
